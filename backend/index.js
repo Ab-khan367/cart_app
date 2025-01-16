@@ -10,7 +10,7 @@ app.use(cors());
 app.use(bodyParser.json());
 
 // MongoDB connection
-mongoose.connect("mongodb://localhost:27017/cartSystem", {
+mongoose.connect("mongodb+srv://abikhan367:<YJ4cdjrFsrVgnNz6>@cartsystem.np1tu.mongodb.net/?retryWrites=true&w=majority&appName=cartSystem", {
     useNewUrlParser: true,
     useUnifiedTopology: true,
 });
